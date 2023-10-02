@@ -1,3 +1,7 @@
+/**
+ * OpportunityStageRule is a class that implements the OpportunityScoringRuleIF interface.
+ * This class is responsible for defining the rules for scoring opportunities based on their stage.
+ */
 public with sharing class OpportunityStageRule implements OpportunityScoringRuleIF
 {
     public static final String OPPTY_STAGE_CLOSED_WON = 'Closed Won';

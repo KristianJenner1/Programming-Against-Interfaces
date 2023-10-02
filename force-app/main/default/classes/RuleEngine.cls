@@ -1,19 +1,27 @@
-public with sharing class RuleEngine 
+/**
+ * The RuleEngine class is responsible for implementing the business rules of the application.
+ * It contains methods for evaluating rules and making decisions based on those rules.
+ */
+public with sharing class RuleEngine
 {
+    // list of Opportunity Scoring Rules from the custom setting
     private List<Opportunity_Score_Rule__c> oppRuleCfgs;
     
+    // constructor
     public RuleEngine()
     {
         loadRules();
     }
 
+    // load the Opportunity Scoring Rules from the custom setting
     private void loadRules()
     {
-        // get the Opportunity Scoring Rules from the custom setting and stores in oppRuleCfgs 
+        // get the Opportunity Scoring Rules from the custom setting and store in oppRuleCfgs 
         // ordered by the Index__c field, low to high. 
         oppRuleCfgs = [SELECT Implementing_Class_Name__c FROM Opportunity_Score_Rule__c ORDER BY Index__c ASC NULLS FIRST];    
     }
 
+    // score the Opportunity based on the Opportunity Scoring Rules
     public Integer scoreOpportunity(Opportunity opp)
     {
         Integer totalScore = 0;
