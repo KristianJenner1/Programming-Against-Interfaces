@@ -16,6 +16,11 @@ public with sharing class RuleEngine
     // load the Opportunity Scoring Rules from the custom setting
     private void loadRules()
     {
+        // check if the Opportunity Scoring Rules have already been loaded else cache them
+        if (oppRuleCfgs != null)
+        {
+            return;
+        }
         // get the Opportunity Scoring Rules from the custom setting and store in oppRuleCfgs 
         // ordered by the Index__c field, low to high. 
         oppRuleCfgs = [SELECT Implementing_Class_Name__c FROM Opportunity_Score_Rule__c ORDER BY Index__c ASC NULLS FIRST];    
