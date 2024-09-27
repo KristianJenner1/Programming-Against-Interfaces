@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 6,
+    "passing": 6,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Dec 14 2021 11:53:43 AM",
+    "testExecutionTimeInMs": 327,
+    "testTotalTimeInMs": 327,
+    "commandTimeInMs": 249,
+    "hostname": "https://brave-hawk-807h3r-dev-ed.my.salesforce.com",
+    "orgId": "00D4J0000002A8hUAE",
+    "username": "kristian_jenner@brave-hawk-807h3r.com",
+    "testRunId": "7074J00003djylb",
+    "userId": "0054J000002BmCuQAK"
+  },
+  "tests": [
+    {
+      "id": "07M4J000005fjW9UAI",
+      "queueItemId": "7094J000000VD7KQAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7074J00003djylbQAA",
+      "methodName": "CalculateScoreHighValueEarlyStage_Test",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p4J00000KtwOhQAJ",
+        "name": "RuleEngine_Test",
+        "namespacePrefix": null,
+        "fullName": "RuleEngine_Test"
+      },
+      "runTime": 142,
+      "testTimestamp": "2021-12-14T11:53:44.000+0000",
+      "fullName": "RuleEngine_Test.CalculateScoreHighValueEarlyStage_Test"
+    },
+    {
+      "id": "07M4J000005fjWAUAY",
+      "queueItemId": "7094J000000VD7KQAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7074J00003djylbQAA",
+      "methodName": "CalculateScoreLateStageLowValue_Test",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p4J00000KtwOhQAJ",
+        "name": "RuleEngine_Test",
+        "namespacePrefix": null,
+        "fullName": "RuleEngine_Test"
+      },
+      "runTime": 40,
+      "testTimestamp": "2021-12-14T11:53:49.000+0000",
+      "fullName": "RuleEngine_Test.CalculateScoreLateStageLowValue_Test"
+    },
+    {
+      "id": "07M4J000005fjWBUAY",
+      "queueItemId": "7094J000000VD7KQAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7074J00003djylbQAA",
+      "methodName": "CalculateScoreMax_Test",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p4J00000KtwOhQAJ",
+        "name": "RuleEngine_Test",
+        "namespacePrefix": null,
+        "fullName": "RuleEngine_Test"
+      },
+      "runTime": 34,
+      "testTimestamp": "2021-12-14T11:53:49.000+0000",
+      "fullName": "RuleEngine_Test.CalculateScoreMax_Test"
+    },
+    {
+      "id": "07M4J000005fjWCUAY",
+      "queueItemId": "7094J000000VD7KQAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7074J00003djylbQAA",
+      "methodName": "CalculateScoreMin_Test",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p4J00000KtwOhQAJ",
+        "name": "RuleEngine_Test",
+        "namespacePrefix": null,
+        "fullName": "RuleEngine_Test"
+      },
+      "runTime": 38,
+      "testTimestamp": "2021-12-14T11:53:49.000+0000",
+      "fullName": "RuleEngine_Test.CalculateScoreMin_Test"
+    },
+    {
+      "id": "07M4J000005fjWDUAY",
+      "queueItemId": "7094J000000VD7KQAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7074J00003djylbQAA",
+      "methodName": "CalculateScoreOnlyStage_Test",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p4J00000KtwOhQAJ",
+        "name": "RuleEngine_Test",
+        "namespacePrefix": null,
+        "fullName": "RuleEngine_Test"
+      },
+      "runTime": 42,
+      "testTimestamp": "2021-12-14T11:53:49.000+0000",
+      "fullName": "RuleEngine_Test.CalculateScoreOnlyStage_Test"
+    },
+    {
+      "id": "07M4J000005fjWEUAY",
+      "queueItemId": "7094J000000VD7KQAW",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7074J00003djylbQAA",
+      "methodName": "CalculateScoreOnlyValue_Test",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p4J00000KtwOhQAJ",
+        "name": "RuleEngine_Test",
+        "namespacePrefix": null,
+        "fullName": "RuleEngine_Test"
+      },
+      "runTime": 31,
+      "testTimestamp": "2021-12-14T11:53:49.000+0000",
+      "fullName": "RuleEngine_Test.CalculateScoreOnlyValue_Test"
+    }
+  ]
+}
